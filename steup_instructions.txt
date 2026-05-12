@@ -1,0 +1,11 @@
+1. Install Python 3.11+
+2. Install Firefox ESR + geckodriver
+3. Install Tor:
+   macOS: brew install tor
+   Ubuntu: sudo apt install tor
+4. Run: brew services start tor (or `sudo service tor start`)
+5. Create virtualenv:
+   python3 -m venv venv
+   source venv/bin/activate
+   pip install -r requirements.txt
+6. Run with: ./run.sh
